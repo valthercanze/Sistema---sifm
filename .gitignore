@@ -1,0 +1,16 @@
+# Pastas de dependências
+node_modules/
+
+# Ficheiros de base de dados (cada PC cria a sua)
+backend/sifm.db
+backend/sifm.db-wal
+backend/sifm.db-shm
+
+# Variáveis de ambiente (segredos)
+.env
+backend/.env
+frontend/.env
+
+# Ficheiros de sistema
+.DS_Store
+Thumbs.db
