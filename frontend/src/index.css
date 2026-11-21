@@ -380,19 +380,12 @@ label {
     }
 }
 
-/* =========================================
-   IMPRESSÃO (Exportar Relatório PDF)
-   ========================================= */
-/* =========================================
-   IMPRESSÃO (Exportar Relatório PDF)
-   ========================================= */
 @media print {
-  /* Esconde menus, botões e elementos marcados */
   .topbar, .tabs, .inline, button, .no-print { 
     display: none !important; 
   }
   
-  /* Remove sombras e margens para o papel */
+
   .card { 
     box-shadow: none !important; 
     border: none !important; 
@@ -405,7 +398,7 @@ label {
     font-size: 12pt;
   }
 
-  /* Adiciona um cabeçalho oficial apenas na impressão */
+  
   body::before {
     content: "SISTEMA INTEGRADO DE INCLUSÃO FINANCEIRA MUNICIPAL\nExtrato de Pagamentos do Contribuinte";
     display: block;

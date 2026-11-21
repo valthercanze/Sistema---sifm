@@ -14,3 +14,6 @@ frontend/.env
 # Ficheiros de sistema
 .DS_Store
 Thumbs.db
+
+# Build do frontend
+frontend/dist/
